@@ -11,6 +11,7 @@ Solidify the team and the main idea of your project by Tuesday of Week 7.
 
 # Related projects and codebases 
 Deep painterly harmonization 
+
 Explains algorithm for combining the content of one image with the style of another image using CNNs
 https://github.com/luanfujun/deep-painterly-harmonization
 
