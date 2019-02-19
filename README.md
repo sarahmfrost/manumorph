@@ -34,7 +34,8 @@ https://github.com/sgugger/Deep-Learning/blob/master/DeepPainterlyHarmonization.
 
 # Explain the computational, interpretive, and media making aspects of your project. 
 
-- Interpretive(?) - Create a webapp/tutorial (à la Tensorflow for Poets) to teach neural networks - make it fun/easy to combine photos and paintings
+- Interpretive(?) - Create a webapp/tutorial (à la Tensorflow for Poets) to teach neural networks - make it fun/easy to combine photos and paintings  
+      - what is it about style transfer that's so interesting? what does it tell us about how we think? 
 - Computational - port from Torch into Tensorflow 
 - Media - manu-mental images 
 
