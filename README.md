@@ -40,11 +40,11 @@ https://github.com/sgugger/Deep-Learning/blob/master/DeepPainterlyHarmonization.
 # What do you expect will be the main creative and technical challenges? 
 
 - Technical: We've never used Torch, complicated loss function
-- Creative - we don't have enough images of Manu 
+- Creative: we don't have enough images of Manu 
 
 # How will you divvy up the responsibilities? 
 
-- 
+We will all do everything
 
 
 
