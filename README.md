@@ -9,11 +9,9 @@ Solidify the team and the main idea of your project by Tuesday of Week 7.
 - How will you divvy up the responsibilities? 
 
 
-
-algorithm for combining the content of one image with the style of another image using convolutional neural networks
-
 # Related projects and codebases 
-Deep painterly harmonization - currently in Torch, we will port to Tensorflow
+Deep painterly harmonization 
+Explains algorithm for combining the content of one image with the style of another image using CNNs
 https://github.com/luanfujun/deep-painterly-harmonization
 
 
