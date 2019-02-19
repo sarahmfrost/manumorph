@@ -26,6 +26,9 @@ https://arxiv.org/abs/1508.06576
 Deep Painterly Harmonization (PDF in Github)
 https://arxiv.org/abs/1804.03189
 
+Blog Post and IPython notebook about Deep Painterly Harmonization 
+https://sgugger.github.io/deep-painterly-harmonization.html
+https://github.com/sgugger/Deep-Learning/blob/master/DeepPainterlyHarmonization.ipynb
 
 Stretch goal: 
   Create a webapp/tutorial (à la Tensorflow for Poets) to each  
