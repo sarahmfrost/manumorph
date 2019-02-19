@@ -2,22 +2,23 @@
 Sarah Frost, David Abramov, and Manu Mathew Thomas 
 
 Part 1 of final project, due Tuesday, Feb 19: 
-Solidify the team and the main idea of your project by Tuesday of Week 7. Identify related
-projects or codebases. Explain the computational, interpretive, and media making aspects of
-your project. What do you expect will be the main creative and technical challenges? How will
-you divvy up the responsibilities? Be prepared to informally present your project ideas in
-class. 
+Solidify the team and the main idea of your project by Tuesday of Week 7. 
+- Identify related projects or codebases. 
+- Explain the computational, interpretive, and media making aspects of your project. 
+- What do you expect will be the main creative and technical challenges? 
+- How will you divvy up the responsibilities? 
+
 
 
 algorithm for combining the content of one image with the style of another image using convolutional neural networks
 
+# Related projects and codebases 
 Deep painterly harmonization - currently in Torch, we will port to Tensorflow
 https://github.com/luanfujun/deep-painterly-harmonization
 
 
 Torch implementation of neural style algorithm
 https://github.com/jcjohnson/neural-style
-
 
 
 A Neural Algorithm of Artistic Style (PDF in Github)
@@ -32,5 +33,12 @@ https://sgugger.github.io/deep-painterly-harmonization.html
 
 https://github.com/sgugger/Deep-Learning/blob/master/DeepPainterlyHarmonization.ipynb
 
-Stretch goal: 
-  Create a webapp/tutorial (à la Tensorflow for Poets) to each  
+# Explain the computational, interpretive, and media making aspects of your project. 
+
+- Interpretive(?) - Create a webapp/tutorial (à la Tensorflow for Poets) to teach neural networks - make it fun/easy to combine photos and paintings
+- Computational - port from Torch into Tensorflow 
+- Media - So many manu-mental images 
+
+
+
+
