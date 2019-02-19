@@ -35,8 +35,16 @@ https://github.com/sgugger/Deep-Learning/blob/master/DeepPainterlyHarmonization.
 
 - Interpretive(?) - Create a webapp/tutorial (à la Tensorflow for Poets) to teach neural networks - make it fun/easy to combine photos and paintings
 - Computational - port from Torch into Tensorflow 
-- Media - So many manu-mental images 
+- Media - manu-mental images 
 
+# What do you expect will be the main creative and technical challenges? 
+
+- Technical: We've never used Torch, complicated loss function
+- Creative - we don't have enough images of Manu 
+
+# How will you divvy up the responsibilities? 
+
+- 
 
 
 
