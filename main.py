@@ -8,8 +8,8 @@ from scipy.optimize import fmin_l_bfgs_b
 from scipy.misc import imsave
 
 
-CONTENT_WEIGHT = 5.0
-STYLE_WEIGHT = [10, 10, 10, 10, 10]
+CONTENT_WEIGHT = 1000
+STYLE_WEIGHT = [0.1, 0.1, 0.1, 0.1, 0.1]
 TV_WEIGHT = 0.5
 
 
@@ -85,10 +85,10 @@ def first_pass(content_image, style_image, mask_image, dilated_mask):
     init_new_vars_op = tf.initializers.variables([loss])
     sess.run(init_new_vars_op)
 
-    loss = tf.add(loss, CONTENT_WEIGHT * content_loss(layer_content[3,:,:,:] * layer_content[0,:,:,:], layer_content[3,:,:,:] * layer_content[2,:,:,:]))
+    loss = tf.add(loss, CONTENT_WEIGHT * content_loss(layer_content[3,:,:,:] * layer_content[0,:,:,:],  layer_content[3,:,:,:] * layer_content[2,:,:,:]))
 
     for i in range(len(layer_style)):
-        loss = tf.add(loss, STYLE_WEIGHT[i] * style_loss(layer_style[i][3,:,:,:] * layer_style[i][1,:,:,:], layer_style[i][3,:,:,:] * layer_style[i][2,:,:,:]))
+        loss = tf.add(loss, STYLE_WEIGHT[i] * style_loss(layer_style[i][3,:,:,:] * layer_style[i][1,:,:,:],layer_style[i][3,:,:,:] * layer_style[i][2,:,:,:]))
 
     train_step = tf.contrib.opt.ScipyOptimizerInterface(loss, var_list=[combination_im], options={'maxfun':20})
 
@@ -132,17 +132,17 @@ def second_pass(content_image, style_image, mask_image, dilated_mask, output_fro
     init_new_vars_op = tf.initializers.variables([loss])
     sess.run(init_new_vars_op)
 
-    loss = tf.add(loss, CONTENT_WEIGHT/10 * content_loss(layer_content[3,:,:,:] * layer_content[0,:,:,:], layer_content[3,:,:,:] * layer_content[2,:,:,:]))
+    loss = tf.add(loss, CONTENT_WEIGHT/50 * content_loss(layer_content[3,:,:,:] * layer_content[0,:,:,:], layer_content[3,:,:,:] * layer_content[2,:,:,:]))
 
     for i in range(len(layer_style)):
-        loss = tf.add(loss, STYLE_WEIGHT[i]/5 * style_loss(layer_style[i][3,:,:,:] * layer_style[i][1,:,:,:], layer_style[i][3,:,:,:] * layer_style[i][2,:,:,:]))
+        loss = tf.add(loss, STYLE_WEIGHT[i] * style_loss(layer_style[i][3,:,:,:] * layer_style[i][1,:,:,:], layer_style[i][3,:,:,:] *  layer_style[i][2,:,:,:]))
 
     loss = tf.add(loss, TV_WEIGHT * tv_loss(combination_im))
 
     train_step = tf.contrib.opt.ScipyOptimizerInterface(loss, var_list=[combination_im], options={'maxfun':20})
 
     print("Pass 2")
-    for i in range(20):
+    for i in range(100):
         curr_loss = sess.run(loss)
         if (i+1) % 10 == 0:
             print("Iteration {0}, Loss: {1}".format(i, curr_loss))
@@ -156,9 +156,9 @@ def second_pass(content_image, style_image, mask_image, dilated_mask, output_fro
     save_image(output, "pass2_output.jpg")
 
 
-content = load_image("trump_lastsupper/input.jpg")
-style = load_image("trump_lastsupper/original.jpg")
-mask = load_image("trump_lastsupper/mask.jpg")
+content = load_image("data/manu_stpeter/input.jpg")
+style = load_image("data/manu_stpeter/original.jpg")
+mask = load_image("data/manu_stpeter/mask.jpg")
 dilated_mask = dilate_mask(mask)
 
 output_pass1 = first_pass(content, style, mask, dilated_mask)
