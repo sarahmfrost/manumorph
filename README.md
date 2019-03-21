@@ -1,10 +1,7 @@
 # Manumorph - A Tensorflow implementation of Deep Painterly Harmonization
 Sarah Frost, David Abramov, and Manu Mathew Thomas 
 
-[Paper](https://github.com/sarahmfrost/manumorph/blob/master/manumorph.pdf)
-
-
-![FourExamples](https://github.com/sarahmfrost/manumorph/blob/master/figures/4examples.png)
+[Link to our paper](https://github.com/sarahmfrost/manumorph/blob/master/manumorph.pdf)
       
 
 # Overview of Project:
@@ -48,10 +45,9 @@ Style weight - controls how much style is applied on the content
 Smoothness factor - controls smoothness across the pixels
 
 ## Results
+![FourExamples](https://github.com/sarahmfrost/manumorph/blob/master/figures/4examples.png)
 
 ![Moon](https://github.com/sarahmfrost/manumorph/blob/master/figures/moon.png)
-
-![Friend](https://github.com/sarahmfrost/manumorph/blob/master/figures/friend.png)
 
 ![SupperAndFrog](https://github.com/sarahmfrost/manumorph/blob/master/figures/supper%2Bfrog.png)
 
@@ -60,7 +56,7 @@ Smoothness factor - controls smoothness across the pixels
 
 ## Improvements
 
-
+## Credits
 
 # Related projects and codebases:
 A Neural Algorithm of Artistic Style (PDF in Github)
