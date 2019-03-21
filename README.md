@@ -24,10 +24,10 @@ Deep Painterly Harmonization (PDF in Github)
 https://arxiv.org/abs/1804.03189
 https://github.com/luanfujun/deep-painterly-harmonization
 
-# Link to the paper:
+# Link to the paper: https://github.com/sarahmfrost/manumorph/blob/master/manumorph.pdf
 
+# More examples of media created with our Tensorflow implementation of Deep Painterly Harmonization
 ![Moon](https://github.com/sarahmfrost/manumorph/blob/master/figures/moon.png)
-
 
 ![Friend](https://github.com/sarahmfrost/manumorph/blob/master/figures/friend.png)
 
