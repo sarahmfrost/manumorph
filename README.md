@@ -8,13 +8,20 @@ Sarah Frost, David Abramov, and Manu Mathew Thomas
 # Overview of Project:
 Style transfer, the technique by which the style of one image is applied to the content of another, is one of the most popular and well-known uses of neural network algorithms. Deep Painterly Harmonization is an extension of style transfer, but includes a content object which is placed on the style image. The network then harmonizes the style and the content. We build on Deep Painterly Harmonization, originally implemented in Torch, and re-implement the paper in Tensorflow. We extend the uses of the algorithm to explore different categories of visual media modification. We discuss the ramifications of style harmonization and style transfer on societal concepts of art, and we compare the results of the Tensorflow and Torch algorithms. Finally, we propose a design for a web application that will allow casual creators to create new art using the algorithm, without a strong technical background. 
 
+#### Table of Contents
+* [Installation](#installation)
+* [Running](#running)
+* [Dataset](#dataset)
+* [Hyperparameters](#hyperparameter)
+* [Results](#results)
+* [Improvements](#improvements)
+* [Credits](#credits)
 
 # How to implement:
 ![ArchitectureOfSystem](https://github.com/sarahmfrost/manumorph/blob/master/figures/architecture.png)
 
 
 # Related projects and codebases:
-
 A Neural Algorithm of Artistic Style (PDF in Github)
 https://arxiv.org/abs/1508.06576 
 https://github.com/jcjohnson/neural-style
