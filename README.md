@@ -58,7 +58,6 @@ Smoothness factor - controls smoothness across the pixels
 
 ## Credits
 
-# Related projects and codebases:
 A Neural Algorithm of Artistic Style (PDF in Github)
 https://arxiv.org/abs/1508.06576 
 https://github.com/jcjohnson/neural-style
