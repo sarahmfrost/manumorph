@@ -13,7 +13,7 @@ Style transfer, the technique by which the style of one image is applied to the 
 ![ArchitectureOfSystem](https://github.com/sarahmfrost/manumorph/blob/master/figures/architecture.png)
 
 
-# Related projects and codebases 
+# Related projects and codebases:
 
 A Neural Algorithm of Artistic Style (PDF in Github)
 https://arxiv.org/abs/1508.06576 
@@ -24,13 +24,13 @@ Deep Painterly Harmonization (PDF in Github)
 https://arxiv.org/abs/1804.03189
 https://github.com/luanfujun/deep-painterly-harmonization
 
-# Link to the paper: https://github.com/sarahmfrost/manumorph/blob/master/manumorph.pdf
+# Link to the paper:
+https://github.com/sarahmfrost/manumorph/blob/master/manumorph.pdf
 
-# More examples of media created with our Tensorflow implementation of Deep Painterly Harmonization
+# More examples of media created with our Tensorflow implementation of Deep Painterly Harmonization:
 ![Moon](https://github.com/sarahmfrost/manumorph/blob/master/figures/moon.png)
 
 ![Friend](https://github.com/sarahmfrost/manumorph/blob/master/figures/friend.png)
-
 
 ![SupperAndFrog](https://github.com/sarahmfrost/manumorph/blob/master/figures/supper%2Bfrog.png)
 
