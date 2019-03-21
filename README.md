@@ -55,6 +55,9 @@ Smoothness factor - controls smoothness across the pixels
 
 
 ## Improvements
+We would like to continue to experiment and test the boundaries of media creation using our Tensorflow implementation. We hope to test the algorithm with a black and white painting for style, while the content style is in color. We also would like continue investigating style subtraction and see if we can achieve more compelling results. This is an implementation of the algorithm in which a section of the style image is removed, and nothing is given to replace it. We would like to investigate how the algorithm harmonizes the empty space with the style of the surrounding image.
+
+In addition, we hope to build a web app that will allow users to upload a piece of art with style and content and harmonize the media with ease. This will allow casual cre- ators to make media. Similar apps exist for style transfer (deepart.io, algorithmia, pikazo, etc.) but an app does not currently exist for style harmonization. This web app would allow users to engage with the Deep Painterly Harmonization algorithm even if they lack the processing power of GPUs or the knowledge of recurrent neural networks.
 
 ## Credits
 
