@@ -2,8 +2,8 @@
 Sarah Frost, David Abramov, and Manu Mathew Thomas 
 
 
+![alt text](https://github.com/sarahmfrost/manumorph/figures/4examples.png)
 
-![Four Examples](sarahmfrost.github.com/manumorph/figures/4examples.png)
       
 
 # Related projects and codebases 
