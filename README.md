@@ -3,6 +3,8 @@ Sarah Frost, David Abramov, and Manu Mathew Thomas
 
 
 
+![Four Examples](sarahmfrost.github.com/manumorph/figures/4examples.png)
+      
 
 # Related projects and codebases 
 Deep painterly harmonization 
