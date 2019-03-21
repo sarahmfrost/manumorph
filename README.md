@@ -1,4 +1,4 @@
-# manumorph - Final Project for CMPM202 Winter 2019 
+# Manumorph - A Tensorflow implementation of Deep Painterly Harmonization
 Sarah Frost, David Abramov, and Manu Mathew Thomas 
 
 
