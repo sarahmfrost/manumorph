@@ -1,12 +1,7 @@
 # manumorph - Final Project for CMPM202 Winter 2019 
 Sarah Frost, David Abramov, and Manu Mathew Thomas 
 
-Part 1 of final project, due Tuesday, Feb 19: 
-Solidify the team and the main idea of your project by Tuesday of Week 7. 
-- Identify related projects or codebases. 
-- Explain the computational, interpretive, and media making aspects of your project. 
-- What do you expect will be the main creative and technical challenges? 
-- How will you divvy up the responsibilities? 
+
 
 
 # Related projects and codebases 
@@ -32,21 +27,7 @@ https://sgugger.github.io/deep-painterly-harmonization.html
 
 https://github.com/sgugger/Deep-Learning/blob/master/DeepPainterlyHarmonization.ipynb
 
-# Explain the computational, interpretive, and media making aspects of your project. 
-
-- Interpretive(?) - Create a webapp/tutorial (à la Tensorflow for Poets) to teach neural networks - make it fun/easy to combine photos and paintings  
-      - what is it about style transfer that's so interesting? what does it tell us about how we think? 
-- Computational - port from Torch into Tensorflow 
-- Media - manu-mental images 
-
-# What do you expect will be the main creative and technical challenges? 
-
-- Technical: We've never used Torch, complicated loss function
-- Creative: we don't have enough images of Manu 
-
-# How will you divvy up the responsibilities? 
-
-We will all do everything
+# Link to the paper:
 
 
 
