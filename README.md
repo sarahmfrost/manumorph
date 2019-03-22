@@ -1,8 +1,7 @@
 # Manumorph - A Tensorflow implementation of Deep Painterly Harmonization
 Sarah Frost, David Abramov, and Manu Mathew Thomas 
 
-[Link to our paper](https://github.com/sarahmfrost/manumorph/blob/master/manumorph.pdf)
-      
+[Link to our paper](https://github.com/sarahmfrost/manumorph/blob/master/Manumorph.pdf)
 
 # Overview of Project:
 ![ArchitectureOfSystem](https://github.com/sarahmfrost/manumorph/blob/master/figures/architecture.png)
