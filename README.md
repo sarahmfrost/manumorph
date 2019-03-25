@@ -50,7 +50,7 @@ Smoothness factor - controls smoothness across the pixels
 
 ![SupperAndFrog](https://github.com/sarahmfrost/manumorph/blob/master/figures/supper%2Bfrog.png)
 
-
+![janefleming](https://github.com/sarahmfrost/manumorph/blob/master/figures/joshua-reynolds_jane-fleming-later-countess-of-harrington-1779.jpg)
 ![sarah](https://github.com/sarahmfrost/manumorph/blob/master/figures/sarahpainting.png)
 
 
